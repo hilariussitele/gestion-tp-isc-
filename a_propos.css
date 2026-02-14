@@ -1,0 +1,87 @@
+body {
+	background-image: url(isc.jpg);
+	font-family: Arial, sans-serif;
+	margin: 0;
+}
+header {
+	background-color: green;
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+nav {
+	background-color:#34495e ;
+	padding: 10px;
+	text-align: center;
+}
+nav a {
+	color: white;
+	margin: 10px;
+	text-decoration: none;
+	font-weight: bold;
+}
+main {
+	max-width: 700px;
+	margin: auto;
+	background-color:white;
+	padding: 20px;
+	border-radius: 5px;
+	line-height: 1.6;
+}
+ul {
+	margin-left: 20px;
+}
+img {
+	width: 150px;
+}
+/* SECTION CONTACT RAPIDE */
+.contact-rapide {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+.contact-rapide h2 {
+    font-size: 28px;
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+/* Conteneur des boutons */
+.boutons-contact {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /* important pour mobile */
+}
+
+/* Style général des boutons */
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+/* Couleurs spécifiques */
+.appel {
+    background-color: #007bff;
+}
+
+.whatsapp {
+    background-color: #25D366;
+}
+
+.facebook {
+    background-color: #1877F2;
+}
+
+/* Effet au survol */
+.btn:hover {
+    transform: scale(1.08);
+    opacity: 0.9;
+}
